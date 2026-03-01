@@ -1,0 +1,65 @@
+{
+  "Version": 1,
+  "Favourites": [],
+  "RecentItems": [
+    {
+      "name": "Sprite18",
+      "path": "sprites/Sprite18/Sprite18.yy"
+    },
+    {
+      "name": "TITLE",
+      "path": "objects/TITLE/TITLE.yy"
+    },
+    {
+      "name": "END",
+      "path": "rooms/END/END.yy"
+    },
+    {
+      "name": "PISO",
+      "path": "rooms/PISO/PISO.yy"
+    },
+    {
+      "name": "Cuarta",
+      "path": "rooms/Cuarta/Cuarta.yy"
+    },
+    {
+      "name": "oAlgas",
+      "path": "objects/oAlgas/oAlgas.yy"
+    },
+    {
+      "name": "oMAlgas",
+      "path": "objects/oMAlgas/oMAlgas.yy"
+    },
+    {
+      "name": "oArana",
+      "path": "objects/oArana/oArana.yy"
+    },
+    {
+      "name": "oJugador",
+      "path": "objects/oJugador/oJugador.yy"
+    },
+    {
+      "name": "hitHurt",
+      "path": "sounds/hitHurt/hitHurt.yy"
+    }
+  ],
+  "Filters": [],
+  "AssetColours": [],
+  "Palette": [
+    "#FF4040FF",
+    "#FFFF80FF",
+    "#FFFF8080",
+    "#FFFF8000",
+    "#FFFFFF80",
+    "#FF80FF00",
+    "#FF80C0FF",
+    "#FF0000FF",
+    "#FF00FFFF",
+    "#FF00FF00",
+    "#FFFFFF00",
+    "#FFFF0000",
+    "#FFFF00FF",
+    "#FF4040FF",
+    "#FFFF80FF"
+  ]
+}

@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ActiveConfig="Default" Platform="Test" Runtime="VM" Device="Default">
+	<Desktop x="95" y="53" width="1728" height="972" id="19" title="FishyHollow - GameMaker" windowState="Normal" dpi="120">
+		<Workspaces>
+			<Workspace active="False" chain="True" title="Workspace 1" localise_title="Workspace_TabTitle" localise_arguments="[&#xD;&#xA;    &quot;1&quot;&#xD;&#xA;]" workspace_offset="[447, 3640]" workspace_scale="1">
+				<Module Command="open_object_editor">
+					<ObjectEditor objectName="oBalas" eventsOpen="true" parentOpen="false" physicsOpen="false" physicsEditorOpen="false" propertiesOpen="false" activeWindow="editor">
+						<WorkspaceChain left="343.2dpi_px" top="139.2dpi_px" />
+						<DocumentWindow columns="1" fullscreen="False" activeTab="0" isActive="False" w="1125px" h="629px" linkIndex="-1">
+							<Script column="0" file="${project_dir}objects\oBalas\Create_0.gml" resource="oBalas" subResource="0_0" overridden_title="False" view_readonly="False" />
+						</DocumentWindow>
+					</ObjectEditor>
+				</Module>
+				<Module Command="open_sound_editor">
+					<SoundEditor id="jump3">
+						<WorkspaceChain left="343.2dpi_px" top="4121.2007dpi_px" />
+					</SoundEditor>
+				</Module>
+				<Module Command="open_sound_editor">
+					<SoundEditor id="hitHurt">
+						<WorkspaceChain left="343.2dpi_px" top="4728.001dpi_px" />
+					</SoundEditor>
+				</Module>
+				<Module Command="open_object_editor">
+					<ObjectEditor objectName="oJugador" eventsOpen="true" parentOpen="false" physicsOpen="false" physicsEditorOpen="false" propertiesOpen="false" activeWindow="editor">
+						<WorkspaceChain left="343.2dpi_px" top="1212dpi_px" />
+						<DocumentWindow columns="1" fullscreen="False" activeTab="0" isActive="False" w="1125px" h="629px" linkIndex="-1">
+							<Script column="0" file="${project_dir}objects\oJugador\Step_0.gml" resource="oJugador" subResource="3_0" overridden_title="False" view_readonly="False" />
+							<Script column="0" file="${project_dir}objects\oJugador\Create_0.gml" resource="oJugador" subResource="0_0" overridden_title="False" view_readonly="False" />
+						</DocumentWindow>
+					</ObjectEditor>
+				</Module>
+				<Module Command="open_object_editor">
+					<ObjectEditor objectName="oArana" eventsOpen="true" parentOpen="false" physicsOpen="false" physicsEditorOpen="false" propertiesOpen="false" activeWindow="editor">
+						<WorkspaceChain left="343.2dpi_px" top="672.4dpi_px" />
+						<DocumentWindow columns="1" fullscreen="False" activeTab="1" isActive="False" w="1125px" h="629px" linkIndex="-1">
+							<Script column="0" file="${project_dir}objects\oArana\Destroy_0.gml" resource="oArana" subResource="1_0" overridden_title="False" view_readonly="False" />
+							<Script column="0" file="${project_dir}objects\oArana\Step_0.gml" resource="oArana" subResource="3_0" overridden_title="False" view_readonly="False" />
+						</DocumentWindow>
+					</ObjectEditor>
+				</Module>
+				<Module Command="open_object_editor">
+					<ObjectEditor objectName="oMAlgas" eventsOpen="true" parentOpen="false" physicsOpen="false" physicsEditorOpen="false" propertiesOpen="false" activeWindow="editor">
+						<WorkspaceChain left="343.2dpi_px" top="2342.4001dpi_px" />
+						<DocumentWindow columns="1" fullscreen="False" activeTab="0" isActive="False" w="1125px" h="629px" linkIndex="-1">
+							<Script column="0" file="${project_dir}objects\oMAlgas\Step_0.gml" resource="oMAlgas" subResource="3_0" overridden_title="False" view_readonly="False" />
+							<Script column="0" file="${project_dir}objects\oMAlgas\Create_0.gml" resource="oMAlgas" subResource="0_0" overridden_title="False" view_readonly="False" />
+							<Script column="0" file="${project_dir}objects\oMAlgas\Alarm_0.gml" resource="oMAlgas" subResource="2_0" overridden_title="False" view_readonly="False" />
+						</DocumentWindow>
+					</ObjectEditor>
+				</Module>
+				<Module Command="open_object_editor">
+					<ObjectEditor objectName="oAlgas" eventsOpen="true" parentOpen="false" physicsOpen="false" physicsEditorOpen="false" propertiesOpen="false" activeWindow="editor">
+						<WorkspaceChain left="343.2dpi_px" top="1777.2001dpi_px" />
+						<DocumentWindow columns="1" fullscreen="False" activeTab="1" isActive="False" w="1125px" h="629px" linkIndex="-1">
+							<Script column="0" file="${project_dir}objects\oAlgas\Create_0.gml" resource="oAlgas" subResource="0_0" overridden_title="False" view_readonly="False" />
+							<Script column="0" file="${project_dir}objects\oAlgas\Step_0.gml" resource="oAlgas" subResource="3_0" overridden_title="False" view_readonly="False" />
+						</DocumentWindow>
+					</ObjectEditor>
+				</Module>
+				<Module Command="open_object_editor">
+					<ObjectEditor objectName="TITLE" eventsOpen="true" parentOpen="false" physicsOpen="false" physicsEditorOpen="false" propertiesOpen="false" activeWindow="editor">
+						<WorkspaceChain left="343.2dpi_px" top="3571.2004dpi_px" />
+					</ObjectEditor>
+				</Module>
+				<Module Command="open_sprite_editor">
+					<SpriteEditor SpriteEditor_Id="Sprite18">
+						<WorkspaceChain left="343.2dpi_px" top="2907.6003dpi_px" />
+					</SpriteEditor>
+				</Module>
+			</Workspace>
+			<Workspace active="False" chain="False" title="Tercera" localise_title="" workspace_offset="[0, 0]" workspace_scale="1">
+				<Module Command="open_room_editor" WorkspaceOwner="true">
+					<Room id="Tercera">
+						<RoomEditArea>
+							<PanArea zoom="2.141155" pan="[-118.21701, -45.045364]" />
+							<Properties />
+							<Selected>
+								<Layer GUID="Instances" />
+								<Item name="inst_622198CA" path="rooms/Tercera/Tercera.yy" />
+							</Selected>
+							<GridSettings XSpacing="16" YSpacing="16" DisplayGrid="True" SnapToGrid="True" GridColour="#32FFFFFF" />
+						</RoomEditArea>
+						<EditorContainer grid_rowlayout="['1*']" grid_columnlayout="['200dpi_px', '1*']">
+							<SnappableWidgets>
+								<Widget Id="RoomSnapContainer" Orientation="Left" />
+							</SnappableWidgets>
+						</EditorContainer>
+					</Room>
+				</Module>
+			</Workspace>
+			<Workspace active="False" chain="False" title="Cuarta" localise_title="" workspace_offset="[0, 0]" workspace_scale="1">
+				<Module Command="open_room_editor" WorkspaceOwner="true">
+					<Room id="Cuarta">
+						<RoomEditArea>
+							<PanArea zoom="1.4148061" pan="[-24.69766, -22.456802]" />
+							<Properties />
+							<Selected>
+								<Layer GUID="Instances" />
+								<Item name="inst_53B30703" path="rooms/Cuarta/Cuarta.yy" />
+							</Selected>
+							<GridSettings XSpacing="16" YSpacing="16" DisplayGrid="True" SnapToGrid="True" GridColour="#32FFFFFF" />
+						</RoomEditArea>
+						<EditorContainer grid_rowlayout="['1*']" grid_columnlayout="['200dpi_px', '1*']">
+							<SnappableWidgets>
+								<Widget Id="RoomSnapContainer" Orientation="Left" />
+							</SnappableWidgets>
+						</EditorContainer>
+					</Room>
+				</Module>
+			</Workspace>
+			<Workspace active="False" chain="False" title="END" localise_title="" workspace_offset="[0, 0]" workspace_scale="1">
+				<Module Command="open_room_editor" WorkspaceOwner="true">
+					<Room id="END">
+						<RoomEditArea>
+							<PanArea zoom="1.8132296" pan="[-22.301498, -68.93562]" />
+							<Properties />
+							<Selected>
+								<Layer GUID="Instances" />
+								<Item name="inst_199B88F1" path="rooms/END/END.yy" />
+							</Selected>
+							<GridSettings XSpacing="16" YSpacing="16" DisplayGrid="True" SnapToGrid="True" GridColour="#32FFFFFF" />
+						</RoomEditArea>
+						<EditorContainer grid_rowlayout="['1*']" grid_columnlayout="['200dpi_px', '1*']">
+							<SnappableWidgets>
+								<Widget Id="RoomSnapContainer" Orientation="Left" />
+							</SnappableWidgets>
+						</EditorContainer>
+					</Room>
+				</Module>
+			</Workspace>
+			<Workspace active="False" chain="False" title="PISO" localise_title="" workspace_offset="[0, 0]" workspace_scale="1">
+				<Module Command="open_room_editor" WorkspaceOwner="true">
+					<Room id="PISO">
+						<RoomEditArea>
+							<PanArea zoom="1.2837466" pan="[-22.028961, -131.84871]" />
+							<Properties />
+							<Selected>
+								<Layer GUID="Instances_1" />
+							</Selected>
+							<GridSettings XSpacing="32" YSpacing="32" DisplayGrid="True" SnapToGrid="True" GridColour="#32FFFFFF" />
+						</RoomEditArea>
+						<EditorContainer grid_rowlayout="['1*']" grid_columnlayout="['200dpi_px', '1*']">
+							<SnappableWidgets>
+								<Widget Id="RoomSnapContainer" Orientation="Left" />
+							</SnappableWidgets>
+						</EditorContainer>
+					</Room>
+				</Module>
+			</Workspace>
+			<Workspace active="False" chain="False" title="Sprite19" localise_title="" workspace_offset="[0, 0]" workspace_scale="1">
+				<Module Command="open_image_editor" WorkspaceOwner="true">
+					<ImageEditor id="Sprite19" frame="0" />
+				</Module>
+			</Workspace>
+			<Workspace active="True" chain="False" title="Sprite18" localise_title="" workspace_offset="[0, 0]" workspace_scale="1">
+				<Module Command="open_image_editor" WorkspaceOwner="true">
+					<ImageEditor id="Sprite18" frame="0" />
+				</Module>
+			</Workspace>
+		</Workspaces>
+		<Dock state="Expanded" type="eLeft" restore_size="291.2dpi_px" active_tab="0">
+			<DockTab localise_title="Inspector_WindowTitle" cell_sizes="[452,547]" layout_id="dock_tab_1" layout_guid="565d1c8d-0053-49fb-8f28-7b0d0c1c0caf">
+				<Module Command="open_inspector">
+					<Inspector resName="Sprite18">
+						<Window left="0dpi_px" right="" top="0dpi_px" bottom="" width="340dpi_px" height="600dpi_px" flags="Default" title="Inspector: Sprite18" localise_title="Inspector_WindowTitleArg" />
+					</Inspector>
+				</Module>
+			</DockTab>
+		</Dock>
+		<Dock state="Expanded" type="eRight" restore_size="305.6dpi_px" active_tab="0">
+			<DockTab localise_title="ResourceTree_Title" cell_sizes="[1000]" layout_id="dock_tab_1" layout_guid="42b26a41-bc03-4180-88f1-69b8b5e98165">
+				<Module Command="open_asset_browser">
+					<AssetBrowser sort="AtoZ" foldersFirst="True" zoom="90">
+						<Window left="" right="" top="" bottom="" width="370dpi_px" height="463dpi_px" flags="Default" title="Asset Browser" localise_title="AssetBrowser_Title" />
+					</AssetBrowser>
+				</Module>
+			</DockTab>
+		</Dock>
+		<Dock state="Expanded" type="eBottom" restore_size="200dpi_px" active_tab="0">
+			<DockTab localise_title="OutputPanel_Output" cell_sizes="[1000]" layout_id="dock_tab_1" layout_guid="2f888111-0797-46ea-a179-accac86dd632">
+				<Module Command="open_output_panel">
+					<Window left="0dpi_px" right="" top="0dpi_px" bottom="" width="900dpi_px" height="240dpi_px" flags="Default" title="Output" localise_title="OutputPanel_Title" />
+				</Module>
+			</DockTab>
+			<DockTab localise_title="OutputPanel_SearchResults" cell_sizes="[1000]" layout_id="dock_tab_2" layout_guid="04b418c3-5563-452b-9d8e-0956d68e4bdd">
+				<Module Command="open_search_output_panel">
+					<Window left="0dpi_px" right="" top="0dpi_px" bottom="" width="900dpi_px" height="240dpi_px" flags="Default" title="Search Results" localise_title="OutputPanel_SearchResults" />
+				</Module>
+			</DockTab>
+			<DockTab localise_title="OutputPanel_SourceControl" cell_sizes="[1000]" layout_id="dock_tab_3" layout_guid="73cf4455-2b05-4cc9-b5ba-2cc8f7455029">
+				<Module Command="open_sc_output_panel">
+					<Window left="0dpi_px" right="" top="0dpi_px" bottom="" width="900dpi_px" height="240dpi_px" flags="Default" title="Source Control" localise_title="OutputPanel_SourceControl" />
+				</Module>
+			</DockTab>
+			<DockTab localise_title="Breakpoints" cell_sizes="[1000]" layout_id="dock_tab_4" layout_guid="3e51395f-5c5d-4e6f-8406-1712c0f6e53e">
+				<Module Command="open_breakpoint_mgr">
+					<Window left="0dpi_px" right="" top="0dpi_px" bottom="" width="900dpi_px" height="240dpi_px" flags="Default" title="Breakpoints" localise_title="Breakpoints" />
+				</Module>
+			</DockTab>
+			<DockTab localise_title="CompileErrors" cell_sizes="[1000]" layout_id="dock_tab_5" layout_guid="cf5df207-3264-4110-9486-d2c9b4243671">
+				<Module Command="show_compile_errors">
+					<Window left="0dpi_px" right="" top="0dpi_px" bottom="" width="900dpi_px" height="240dpi_px" flags="Default" title="Compile Errors" localise_title="CompileErrors" />
+				</Module>
+			</DockTab>
+			<DockTab localise_title="Feather_LintMessages_Title" cell_sizes="[1000]" layout_id="Diagnostics" layout_guid="13f3a856-20cf-4df7-bf40-384595430c96">
+				<Module Command="feather_lint_messages_initialized">
+					<Window left="" right="" top="" bottom="" width="800dpi_px" height="600dpi_px" flags="Default" title="Feather Messages" localise_title="Feather_LintMessages_Title" />
+				</Module>
+			</DockTab>
+			<DockTab localise_title="PrefabLibrary" cell_sizes="[1000]" layout_id="Prefabs" layout_guid="13f3a856-20cf-4df7-bf40-384595430c96">
+				<Module Command="open_prefab_library">
+					<PrefabLibrary>
+						<Window left="" right="" top="" bottom="" width="930dpi_px" height="600dpi_px" flags="Default" title="Prefab Library - Available Prefabs" localise_title="PrefabLibrary" />
+					</PrefabLibrary>
+				</Module>
+			</DockTab>
+		</Dock>
+	</Desktop>
+	<Modules>
+		<YoYoStudio.Plugins.RoomEditor.RoomEditorModule>
+			<RoomEditor>
+				<Layers left="" right="" top="" bottom="" width="377dpi_px" height="310dpi_px" flags="CloseButton, MinimizeButton, ResizeButton" title="Layers - END" localise_title="RoomEditor_Layers" dock_type="eLeft" dock_tab_index="0" dock_list_index="0" dock_proportion="0.90563834" dock_tab_name="Inspector" dock_tab_localise_name="Inspector_WindowTitle" dock_tab_id="dock_tab_1" dock_tab_guid="565d1c8d-0053-49fb-8f28-7b0d0c1c0caf" desktop="19" />
+				<UIPreview enabled="False" preset="Room" clip="True" x="0" y="0" />
+			</RoomEditor>
+		</YoYoStudio.Plugins.RoomEditor.RoomEditorModule>
+	</Modules>
+</Project>
